@@ -1,0 +1,56 @@
+---
+title: "Cohort Study <br> .med[-- basic knowledge and analysis]"
+# subtitle: "why we use it and what does it provide"
+author: 
+    Chaochen Wang (CWAN) 
+date: "2020-03-27 15:00~16:00 @CSS"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    lib_dir: libs
+    nature:
+      countdown: 60000
+      highlightStyle: github
+      highlightLines: true
+      highlightSpans: true
+      countIncrementalSlides: false
+editor_options: 
+  chunk_output_type: console
+---
+
+
+class: middle
+# Objectives
+
+- Describe the principal design features of cohort studies. 
+
+- Explain the strengths and weaknesses of cohort studies. 
+
+- Describe the analytical approaches commonly used for cohort studies. 
+
+
+---
+class: middle 
+
+# Cohort
+
+"Any designated group of individuals who are followed or traced over a period of time." --- Rothman 1998
+
+---
+class: middle
+
+# Key steps 
+
+1. What is the hypothesis ?
+
+2. Identify groups of individuals to be studies
+
+3. Define primary exposure & its measurement
+
+4. Define potential confounding variables & their measurement
+
+5. Define outcome & its measurement 
+
+6. Analysis the data
+
+7. Result interpretation

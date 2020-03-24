@@ -54,3 +54,22 @@ class: middle
 6. Analysis the data
 
 7. Result interpretation
+
+---
+class: middle
+
+# Defining exposure groups 
+
+
+- Occupational: pilots; bus drivers; doctors; nurses; workers with a specified industrial exposure, etc. 
+
+- Infectious: hepatitis A/B/C virus; vaccines; etc.
+
+- Social/biological: breast feeding; stress; smoking; drinking, etc. 
+
+---
+class: middle
+
+# Types of cohort study
+
+- **Concurrent** Cohort Studies: 

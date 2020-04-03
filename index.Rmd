@@ -36,20 +36,29 @@ class: middle
 
 "Any designated group of individuals who are followed or traced over a period of time." --- Rothman 1998
 
-```{r echo=FALSE}
+```{r echo=FALSE, eval=FALSE}
 library(DiagrammeR)
 mermaid("
 graph LR
-  A((Population))-->B[People <br> without<br> disease]
-  B-->C[Exposed]
-  B-->D[Not Exposed]
-  C-->E[Disease]
-  C-->F[No Disease]
-  D-->G[Disease]
-  D-->H[No Disease]
+  A((Population))==>B[People <br> without<br> disease]
+  B==>C[Exposed]
+  B==>D[Not Exposed]
+  C==>E[Disease]
+  C==>F[No Disease]
+  D==>G[Disease]
+  D==>H[No Disease]
 ", width = 800, height = 400)
+
 ```
 
+
+---
+class: top
+background-image: url("./fig/Direction.png")
+background-position: 50% 50%
+background-size: contain
+
+## Direction of enquiry
 
 
 ---

@@ -9,3 +9,11 @@ graph LR
   D==>G[Disease]
   D==>H[No Disease]
 ", width = 1000, height = 500)
+
+
+
+# mermaid("
+# sequenceDiagram
+#     Exposure ==> Outcome
+#     end
+#                 ")

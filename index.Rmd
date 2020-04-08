@@ -97,4 +97,88 @@ class: middle
 
 # Types of cohort study
 
-- **Concurrent** Cohort Studies: 
+- **Concurrent** Cohort Studies: new exposure data is collected on cohort members at the start of (and sometimes also during) follow-up
+
+- **Historical** Cohort Studies: use pre-existing exposure histories that have been assembled for cohort members in the past
+
+Choice may depends on: 
+
+study question, logistics, costs, quality of exposure data, etc.
+
+
+---
+class: middle 
+
+# Concurrent vs. Historical
+
+- Philosophical 
+
+    - Cohort studies are always **prospective** as they look forward from exposure to disease
+    
+- Cohort studies sometimes called **historical** if the use historical data on exposure and disease.
+
+
+---
+class: middle
+
+# Data collection
+
+- High degree of control over data collection (type and quality)
+
+- Possible improved sampling of patients 
+
+- Can be very very very time consuming
+
+- Very very very expensive
+
+
+---
+class: top, center
+background-image: url("./fig/F3.large.jpg")
+background-position: 50% 100%
+background-size: contain
+
+
+## British Doctors Study
+
+---
+class: middle
+
+# British Doctors Study<sup>[1]</sup>
+
+.med[
+- Groups 
+    - 34439 male doctors born 1900-1930 
+- Exposure 
+    - Smoking history from questionnaire
+- Potential confounders 
+    - Height, weight, BP, alcohol, medical history, etc.
+- Follow-up 
+    - 1951-2001
+- Outcome 
+    - Death and cause of death (death certificate)
+- Analysis: Rate ratio by smoking history
+]
+
+.tiny[[1] R. Doll et al. “Mortality in relation to smoking: 50 years’ observations on male British doctors,” BMJ 2004.]
+
+
+---
+class: middle
+
+## Karonga Prevention Study<sup>[1]</sup>
+
+- 197 HIV + <br> 396 HIV - <br> baseline: late 1980 
+- Followed up to late 1990s
+- Death rate was 93.3 per 1000 person-years in the HIV + group
+- 11.3 in the initially HIV - group
+- Hazard Ratio: <br> 10.8 [95% confidence interval (CI) 7.4–15.6].
+
+.tiny[[1] A. C. Crampin et al., “Long-term follow-up of HIV-positive and HIV-negative individuals in rural Malawi,” AIDS, 2002.]
+
+
+---
+class: middle
+
+# Nurses Health Study
+

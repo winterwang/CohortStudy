@@ -178,7 +178,11 @@ class: middle
 
 
 ---
-class: middle
+class: top, left
+background-image: url("./fig/nejm199509143331101_f2.jpeg")
+background-position: -180% -320%
+background-size: cover
 
-# Nurses Health Study
+# Nurses Health Study<sup>[1]</sup>
 
+.med[[1]J. E. Manson et al., “Body weight and mortality among women,” New England Journal of Medicine, 1995.]

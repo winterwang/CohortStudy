@@ -186,3 +186,130 @@ background-size: cover
 # Nurses Health Study<sup>[1]</sup>
 
 .med[[1]J. E. Manson et al., “Body weight and mortality among women,” New England Journal of Medicine, 1995.]
+
+
+---
+class: middle
+
+# Source of cohorts
+
+
+- Electronic Healthcare database
+
+    - Already collected
+    - Can be used for most study designs
+    - Very large populations
+    - Little control over quality and type of information
+    
+---
+class: middle
+
+# Source of cohorts
+
+-  Registries 
+    
+    - Prospective
+    - Often used for some rare/infectious diseases, or cancer
+    - Better control over data collection
+    - Long to conduct
+    - Expensive
+    
+---
+class: middle
+
+# Cohort studies 
+
+.pull-left[
+Advantages: 
+
+- Multiple outcomes
+- Rare exposures 
+- Less biased measure of exposure
+- Population rates
+- Temporal sequence
+]
+
+.pull-right[
+Disadvantages: 
+
+- Money and time consuming
+- Misclassification of exposure and outcome
+- Loss to follow-up
+- Inefficient for rare outcomes
+- Bias and confounding still matter
+]
+
+
+---
+class: middle
+
+# Example: multiple outcomes
+
+The Karonga Prevention Study:  A. C. Crampin et al., “Long-term follow-up of HIV-positive and HIV-negative individuals in rural Malawi,” AIDS, 2002.
+
+- Originally set up to look at leprosy (ハンセン病)
+
+- Was adapted to study HIV, TB, and other outcomes. 
+
+
+---
+class: middle
+
+# Example: rare exposures
+
+Hiroshima and Nagasaki 
+
+- long term follow-up of children exposed to radiation from the nuclear explosions
+
+---
+class: middle
+
+# Example: less biased measurement of exposure 
+
+Brain Cancer and mobile phone usage 
+
+- Asking people with brain cancer about previous/historical use may well result in a biased assessment 
+
+---
+class: middle
+
+# Example: temporal sequence 
+
+Cholesterol and cancer 
+
+- Some cancer would reduce cholesterol levels: this doesn't mean low chilesterol leads to cancer 
+
+
+---
+class: middle
+
+# Example: money and time consuming
+
+UK Biobank 
+
+- Aims to investigate gene-environment interaction
+
+- 500,000 sample size
+
+- At least 10 years. 
+
+---
+class:  middle
+
+# Example: loss to follow-up
+
+Hormone replacement therapy and breast cancer 
+
+- Problem that women who take HRT would be more likely to complete follow-up, 
+
+- while those who do not take HRT would have a much lower follow-up
+
+---
+class: middle
+
+# Issues in cohort studies
+
+- Bias:
+
+    - Selection of the population (representativeness)
+    - Choice of comparison group <br> (healthy worker effect)

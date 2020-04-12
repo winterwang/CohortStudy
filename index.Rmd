@@ -335,5 +335,18 @@ class: middle
 
 - Confounding is about alternative explanations
 
-- It occurs when an estimate of the association
+- It occurs when an estimate of the association between an exposure and an outcome is mixed up with the effect of another exposure on the same outcome, and the two exposures are closely related
+
+---
+class: top, left
+background-image: url("./fig/CFDNG.png")
+background-position: 50% 70%
+background-size: contain
+
+# Example: confounding <br> carrying a briefcase to work makes you live longer
+
+<!-- # ```{r, echo=FALSE} -->
+<!-- # knitr::include_graphics("fig/CFDNG.png") -->
+<!-- # ``` -->
+
     

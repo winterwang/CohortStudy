@@ -11,6 +11,47 @@ graph LR
 ", width = 1000, height = 500)
 
 
+mermaid(
+  "
+  graph LR
+  A[Exposure <br> Briefcase to work] -.X.-> B[Outcome <br> All cause mortality]
+  A[Exposure <br> Briefcase to work] --> C[Confounder <br> SES]
+  C[Confounder <br> SES] --> A[Exposure <br> Briefcase to work]
+  C --> B
+  ", width = 1000, height = 500
+)
+
+
+text <- glue::glue('Exposure: 
+                  Briefcase to work')
+
+text1 <- glue::glue('Outcome: 
+                  All cause mortality')
+
+text2 <- glue::glue('Confounder:
+                    SES')
+
+grViz("
+digraph causal {
+
+  # nodes [fontname = Sans]
+  A [label = '@@1']
+  B [label = '@@2']
+  C [label = '@@3']
+  
+  # Edge
+  rankdir = LR
+  A -> B
+  A -> C
+  C -> B
+  C -> A
+ 
+}      
+ [1]: text
+ [2]: text1
+ [3]: text2
+      ")
+
 
 # mermaid("
 # sequenceDiagram

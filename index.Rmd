@@ -3,7 +3,7 @@ title: "Cohort Study <br> .med[-- basic knowledge and analysis]"
 # subtitle: "why we use it and what does it provide"
 author: 
     Chaochen Wang (CWAN) 
-date: "2020-03-27 15:00~16:00 @CSS"
+date: "TBD 15:00~16:00"
 output:
   xaringan::moon_reader:
     css: xaringan-themer.css

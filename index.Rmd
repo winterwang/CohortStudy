@@ -345,8 +345,122 @@ background-size: contain
 
 # Example: confounding <br> carrying a briefcase to work makes you live longer
 
-<!-- # ```{r, echo=FALSE} -->
-<!-- # knitr::include_graphics("fig/CFDNG.png") -->
-<!-- # ``` -->
 
+
+---
+class: middle
+
+# Reverse causality 
+
+- The association exists because having the outcome leads to the exposure. 
+
+- The begining of a disease is not always obvious (like cancer or maybe diabetes) so we sometimes exclude outcomes within a set period of time of the study start.  
     
+    
+---
+class: middle
+
+# Analytical approaches - Basic
+
+- Compare disease risk or rate in exposed cohort members with unexposed cohort members
+
+$$
+\text{Risk} = \frac{\text{N of observed cases}}{\text{N at risk at start}}
+$$
+
+$$
+\text{Rate} = \frac{\text{N of observed cases}}{\text{Person years at risk}}
+$$
+
+
+
+---
+class: top, left
+background-image: url("./fig/follow.png")
+background-position: 50% 50%
+background-size: contain
+
+---
+class: middle
+
+# Risk and Rate
+
+$$
+\text{Risk} = \frac{2}{7} = 0.29 
+$$
+
+$$
+\text{Rate} = \frac{2}{2 + 1.5 + 1 + 2 + 1 + 1.5 + 1} = \frac{2}{10}
+$$
+
+$\Rightarrow 0.2$ deaths/person-year 
+
+
+---
+class: middle
+
+# SMR - standardized mortality (morbiditiy) ratio
+
+$$
+\text{SMR} = \frac{\text{Observed Deaths}}{\text{Expected Deaths}} = \frac{O}{E}
+$$
+
+Expected deaths are the number of deaths that would be expected if age-, sex-, and calendar period rates for the **general population**.
+
+
+
+---
+class: middle
+
+### Lung cancer mortality in Manchester printers machine assistants relative to the population<sup>1</sup>
+
+- Expected based on England and Wales rates <br> SMR = 179; 95% CI: 144-218
+
+- Expected based on Manchester rates <br> SMR = 122; 95% CI: 98-148
+
+
+
+.small[[1] D. Leon, P. Thomas, and S. Hutchings, “Lung cancer among newspaper printers exposed to ink mist: a study of trade union members in Manchester, England.,” Occupational and environmental medicine, vol. 51, no. 2, pp. 87–94, 1994.]
+
+
+---
+class: middle
+
+## Analysis: a simplified example <br> British Doctors Study Lung cancer rates
+
+- Unexposed: life long non-smokers <br> Rate = 0.17 / 1000 men-year
+
+- Exposed: current smokers, more than 24 cigarettes/day <br> Rate = 4.17 / 1000 men-year
+
+- Rate ratio = 24.5
+
+---
+class: top, right
+background-image: url("./fig/SurvivalAnalysis.png")
+background-position: 50% 50%
+background-size: contain
+
+## Analysis: survival analysis 
+
+Please refer to the other [slides](https://wangcc.me/basic_suvival/#1) (click here)
+
+
+---
+class: middle
+
+# Interpretation
+
+- Consider possibility of bias, residual confounding
+
+- One study alone not proof
+
+- Consistent evidence with the other cohorts/study designs in differen settings.
+
+- RCT is not always possible
+
+---
+class: middle, center, inverse
+
+# Thanks
+
+

@@ -53,8 +53,27 @@ digraph causal {
       ")
 
 
-# mermaid("
-# sequenceDiagram
-#     Exposure ==> Outcome
-#     end
-#                 ")
+mermaid("
+sequenceDiagram
+    participant クライアント
+    participant sv as サーバー
+    participant db as データベース
+
+    # データ取得コード
+    クライアント ->> sv : 要求
+    sv ->> db : 発行
+    db -->> sv : 結果
+    sv -->> クライアント : 結果
+
+    alt 正常終了
+        Note over クライアント : 取得データ表示
+    else エラー
+        Note over クライアント : エラー表示
+    end")
+
+
+mermaid("
+sequenceDiagram
+    Zero ->> Two : 2 years  
+    Zero ->> One.half : 1.5 years
+end")

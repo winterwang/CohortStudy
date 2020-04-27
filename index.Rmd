@@ -3,7 +3,7 @@ title: "Cohort Study <br> .med[-- basic knowledge and analysis]"
 # subtitle: "why we use it and what does it provide"
 author: 
     Chaochen Wang (CWAN) 
-date: "TBD 15:00~16:00"
+date: "2020-04-28 via hangout 15:00~16:00"
 output:
   xaringan::moon_reader:
     css: xaringan-themer.css
@@ -277,7 +277,7 @@ class: middle
 
 Cholesterol and cancer 
 
-- Some cancer would reduce cholesterol levels: this doesn't mean low chilesterol leads to cancer 
+- Some cancer would reduce cholesterol levels: this doesn't mean low cholesterol leads to cancer 
 
 
 ---
